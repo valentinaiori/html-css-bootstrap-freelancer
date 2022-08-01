@@ -8,10 +8,15 @@
 
 .vi-bg-green{
     background-color: #1abc9c;
+    color: white;
 }
 
 .vi-bg-grey{
     background-color: grey;
     color: white;
+}
+
+img{
+    width: 100%;
 }
 
