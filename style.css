@@ -20,3 +20,22 @@ img{
     width: 100%;
 }
 
+.vi-avatar{
+    max-width: 250px;
+}
+
+.vi-star-wing{
+    display: inline-block;
+    height: 2px;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.vi-star-wing-dark{
+    display: inline-block;
+    height: 2px;
+    width: 20%;
+    border: 1px solid #2c3e50;
+    border-radius: 2px;
+}

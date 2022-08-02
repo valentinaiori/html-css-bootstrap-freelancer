@@ -13,7 +13,7 @@
 
     <header class="vi-bg-dark">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container-lg">
               <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,15 @@
             <div class="container-lg text-center">
                 <div class="row">
                     <div class="col-12">
-                        <img src="img/avatar.svg" class="img-fluid" alt="Avatar">
+                        <img src="img/avatar.svg" class="img-fluid vi-avatar" alt="Avatar">
                     </div>
                     <div class="col-12 py-3">
                         <h2>START BOOTSTRAP</h2>
                     </div>
                     <div class="col-12 pb-4">
-                        <i class="bi bi-star-fill"></i>
+                        <div class="vi-star-wing align-middle"></div>
+                        <i class="bi bi-star-fill align-middle"></i>
+                        <div class="vi-star-wing align-middle"></div>
                     </div>
                     <p class="col-12">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
@@ -56,10 +58,14 @@
             <div class="container-lg text-center">
                 <div class="row">
                     <div class="col-12">
+                        
                         <h2>PORTFOLIO</h2>
+                        
                     </div>
                     <div class="col-12 pb-3">
+                        <div class="vi-star-wing-dark align-middle"></div>
                         <i class="bi bi-star-fill"></i>
+                        <div class="vi-star-wing-dark align-middle"></div>
                     </div>
                 </div>
                 <div id="portfolio-container">
@@ -93,7 +99,9 @@
                         <h2>ABOUT</h2>
                     </div>
                     <div class="col-12 pb-3">
+                        <div class="vi-star-wing align-middle"></div>
                         <i class="bi bi-star-fill"></i>
+                        <div class="vi-star-wing align-middle"></div>
                     </div>
                 </div>
                 <div class="row px-5">
@@ -108,15 +116,32 @@
                     <div class="col-12">
                         <h2>CONTACT ME</h2>
                         <div class="vi-star">
+                            <div class="vi-star-wing-dark align-middle"></div>
                             <i class="bi bi-star-fill"></i>
+                            <div class="vi-star-wing-dark align-middle"></div>
                         </div>
                     </div>
-                        
-                    <div class="row">
-                        <p class="col-12">Name</p>
-                        <p class="col-12">Email Address</p>
-                        <p class="col-12">Phone Number</p>
-                        <p class="col-12">Message</p>
+                    <div class="col-12">
+                        <form>
+                            <div class="mb-3">
+                                <label for="input-name" class="form-label">Name</label>
+                                <input type="textarea" class="form-control" id="input-name">
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                               <label for="input-number" class="form-label">Phone Number</label>
+                               <input type="textarea" class="form-control" id="input-number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-textarea" class="form-label">Message</label>
+                                <input type="textarea" class="form-control" id="input-textarea">
+                             </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send</button>
+                          </form>
                         </div>
                     </div>
                 </div>
